@@ -11,7 +11,7 @@ veri[veri.az]
 veri.dondur<-(((2*veri-300)/3)^2)
 
 library(data.table)
-billion<-fread("C:/Users/lenovo/Downloads/BILLION.TXT")
+billion<-fread("data/BILLION.TXT")
 
 paran.kadar.konus<-billion[,1] 
 paran.kadar.konus=stack(billion,select = c(Wealth)) 
